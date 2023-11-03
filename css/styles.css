@@ -12,27 +12,36 @@ body {
     color: var(--primary-text-color);
 }
 
+
+.list {
+    list-style: none;
+}
+
+
 /* Header */
 
 .logo {
     color: var(--accent-color);
+    text-decoration: none;
 }
 
-.site-nav a {
+.site-nav .link {
     color: var(--black-text-color);
+    text-decoration: none;
 }
 
-.site-nav a:focus,
-.site-nav a:hover {
+.site-nav .link:focus,
+.site-nav .link:hover {
     color: var(--accent-color);
 }
 
-.contact a {
+.contact .link {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
-.contact a:focus,
-.contact a:hover {
+.contact .link:focus,
+.contact .link:hover {
     color: var(--accent-color);
 }
 
@@ -74,8 +83,14 @@ body {
     color: var(--black-text-color);
 }
 
-.portfolio a {
+.portfolio .link {
     color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.portfolio .link:hover,
+.portfolio .link:focus{
+    color: var(--accent-color);
 }
 
 /* Footer */
@@ -84,6 +99,7 @@ footer {
     background-color: var(--accent-background-color);
 }
 
-address .address-link {
+.address .link {
     color: var(--primary-white-color);
+    text-decoration: none;
 }

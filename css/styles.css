@@ -2,5 +2,88 @@
     --primary-white-color: #FFFFFF;
     --accent-color: #2196f3;
     --primary-text-color: #757575;
-    --title-text-color: #212121;
+    --black-text-color: #212121;
+    --accent-background-color: #2F303A;
+    --button-secondary-background-color: #F5F4FA;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+/* Header */
+
+.logo {
+    color: var(--accent-color);
+}
+
+.site-nav a {
+    color: var(--black-text-color);
+}
+
+.site-nav a:focus,
+.site-nav a:hover {
+    color: var(--accent-color);
+}
+
+.contact a {
+    color: var(--primary-text-color);
+}
+
+.contact a:focus,
+.contact a:hover {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--accent-background-color);
+}
+
+.hero .title {
+    color: var(--primary-white-color);
+}
+
+/* Buttons */
+
+.button {
+    color: var(--black-text-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--black-text-color);
+    background-color: var(--button-secondary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Main */
+
+.section .title {
+    color: var(--black-text-color);
+}
+
+.portfolio a {
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--accent-background-color);
+}
+
+address .address-link {
+    color: var(--primary-white-color);
 }

@@ -5,7 +5,7 @@
     --secondary-text-color: #212121;
     --primary-white-color: #FFFFFF;
     --secondary-background-color: #2F303A;
-    --button-secondary-background-color: #F5F4FA;
+    --button-team-secondary-background-color: #F5F4FA;
     --footer-contact-color: rgba(255, 255, 255, 0.60);
 }
 
@@ -115,6 +115,10 @@ body {
 
 /* Team List */
 
+.team {
+    background-color: var(--button-team-secondary-background-color);
+}
+
 .team-list-title {
     color: var(--secondary-text-color);
 
@@ -161,6 +165,11 @@ footer {
     letter-spacing: 0.42px;
 }
 
+.address-link:focus,
+.address-link:hover {
+    color: var(--accent-color);
+}
+
 .footer-contact-list-link {
     color: var(--footer-contact-color);
 
@@ -168,6 +177,11 @@ footer {
     font-style: normal;
     line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
+}
+
+.footer-contact-list-link:focus,
+.footer-contact-list-link:hover {
+    color: var(--accent-color);
 }
 
 /* Buttons */
@@ -189,7 +203,7 @@ footer {
 
 .button.secondary {
     color: var(--secondary-text-color);
-    background-color: var(--button-secondary-background-color);
+    background-color: var(--button-team-secondary-background-color);
 
     text-align: center;
     font-weight: 500;
